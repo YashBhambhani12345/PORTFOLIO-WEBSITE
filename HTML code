@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="prt style.css">
+</head>
+<body>
+    <nav class="bar">
+        <ul>
+            <li><a href="#ab">ABOUT</a></li>
+            <li><a href="#ed">EDUCATION</a></li>
+            <li><a href="#sk">SKILLS/INTEREST</a></li>
+            <li><a href="#co">CONTACT</a></li>
+        </ul>
+    </nav>
+    <div class="intro">
+        <h1>Hi<br>I'am Yash Bhambhani</h1>      
+    </div>
+    <div class="about" id="ab">
+        <h2>ABOUT ME</h2>
+        <p><br>
+        </p>
+    </div>
+    <div class="education" id="ed" >
+        <h2>EDUCATION</h2>
+        <table width="70%" height="50%">
+            <tr>
+                <th>INSTITUE</th>
+                <th>COURSE</th>
+                <th>YEAR OF GRADUATON</th>
+                <th>PERCENTAGE/CGPA</th>
+            </tr>
+            <tr>
+                <td>TAGORE INTERNATIONAL SCHOOL</td>
+                <td>CLASS 10th</td>
+                <td>2018</td>
+                <td>85%</td>
+            </tr>
+            <tr>
+                <td>TAGORE INTERNATIONAL SCHOOL</td>
+                <td>CLASS 12th</td>
+                <td>2020</td>
+                <td>95%</td>
+            </tr>
+            <tr>
+                <td>MANIPAL UNIVERSITY JAIPUR</td>
+                <td>BTECH COMPUTER SCIENCE (CURRENTLY PURSUING)</td>
+                <td>2024</td>
+                <td>-</td>
+            </tr>
+        </table>
+    </div>
+    <div class="skills" id="sk">
+        <h2>SKILLS/INTERESTS-</h2>
+        <h3>TOP SKILLS-</h3>
+        <ul>
+            <li>DATA STRUCTURE AND ALGORITHMS</li>
+            <li>WEB DEVELOPMENT</li>
+            <li>OBJECT ORIENTED PROGRAMMING</li>
+        </ul>
+        <h3>TECHNOLOGIES-</h3>
+        <ul>
+            <li>JAVA</li>
+            <li>C++</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+        <h2>POSITION OF RESPONSIBILTY-</h2>
+        <ul>
+            <li>MEMBER OF PROMOTION TEAM OF LEARNIT CLUB OF OUR COLLEGE</li>
+        </ul>
+
+    </div>
+    <div class="contact" id="co">
+        <h2>CONTACT</h2>
+        <ul>
+            <li>PHONE NO.- 9871761025</li>
+            <li>EMAIL ID-yash.bhambhani02@gmail.com</li>
+            <li><a href="www.linkedin.com/in/yash-bhambhani-21a975208"><img class="link" src="download.png"></a><a href=""><img class="link" src="insta link.png"></a></li>
+
+        </ul>
+    </div>
+    <div class="footer">
+    </div>
+</body>
+</html>
