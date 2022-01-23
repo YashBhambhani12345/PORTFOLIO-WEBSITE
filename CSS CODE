@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    border: 20px solid blanchedalmond;
+}
+.bar ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly
+}
+li{
+    cursor: pointer;
+}
+li a:link{
+    color: white;
+}
+li a:visited{
+    color:white;
+}
+li a{
+    text-decoration: none;
+}
+.intro{
+    display: flex;
+    height: 500px;
+    background-image:url("me.jpeg");
+    background-position-x: 100%;
+    border:2px solid black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 100%;
+}
+.intro h1{
+    padding-top: 140px;
+    padding-left: 100px;
+}
+.about{
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    border:2px solid black;
+
+}
+.about h2{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.education{
+    display: flex;
+    height: 500px;
+    background-position-x: 100%;
+    flex-direction: column;
+    border:2px solid black;
+}
+.education table{
+    position: relative;
+    left: 15%;
+    top:20%;
+}
+.education table,th,td{
+    border: 1px solid black;
+}
+.education{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.skills{
+    display: flex;
+    height: 500px;
+    background-position-x: 100%;
+    flex-direction: column;
+    border:2px solid black;
+}
+.skills li{
+    list-style-type: circle;
+}
+.skills h2,h3,ul{
+    padding-left:40px;
+}
+.skills h2,h3,ul{
+    padding-left:40px;
+    padding-top:20px;
+}
+.contact h2,ul{
+    padding-left:40px;
+    padding-top:40px;
+    list-style-type: none;
+}
+
+.contact{
+    display: flex;
+    height: 200px;
+    background-position-x: 100%;
+    flex-direction: column;
+    border:2px solid black;
+}
+.link{
+    width:25px;
+}
+.footer{
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+body li{
+    cursor: auto;
+}
